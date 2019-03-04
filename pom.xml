@@ -9,12 +9,25 @@
     <name>gula.recipes BOM (Bill of Materials)</name>
     <description>This Bill of Materials POM is used to ease dependency management for all gula.recipes subprojects.</description>
 
+    <organization>
+        <name>gula.recipes</name>
+        <url>https://gula.recipes</url>
+    </organization>
+
     <scm>
         <connection>scm:git:file://.</connection>
         <developerConnection>scm:git:file://.</developerConnection>
         <url>scm:git:file://.</url>
         <tag>HEAD</tag>
     </scm>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <properties>
         <java.version>11</java.version>
