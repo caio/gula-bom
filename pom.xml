@@ -42,7 +42,6 @@
         <logback.version>1.2.3</logback.version>
         <junit-jupiter.version>5.4.0</junit-jupiter.version>
         <mockito.version>2.24.5</mockito.version>
-        <reactor.version>Californium-SR5</reactor.version>
         <immutables.version>2.7.5</immutables.version>
 
         <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
@@ -111,13 +110,6 @@
                 <version>${jackson.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>io.projectreactor</groupId>
-                <artifactId>reactor-bom</artifactId>
-                <version>${reactor.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>ch.qos.logback</groupId>
