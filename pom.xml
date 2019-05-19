@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>co.caio</groupId>
     <artifactId>gula-bom</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.5</version>
     <packaging>pom</packaging>
 
     <name>gula.recipes BOM (Bill of Materials)</name>
@@ -18,7 +18,7 @@
         <connection>scm:git:file://.</connection>
         <developerConnection>scm:git:file://.</developerConnection>
         <url>scm:git:file://.</url>
-        <tag>HEAD</tag>
+        <tag>0.0.5</tag>
     </scm>
 
     <licenses>
