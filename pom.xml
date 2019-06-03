@@ -39,7 +39,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <jackson.version>2.9.9</jackson.version>
-        <logback.version>1.2.3</logback.version>
         <junit-jupiter.version>5.4.2</junit-jupiter.version>
         <mockito.version>2.27.0</mockito.version>
         <immutables.version>2.7.5</immutables.version>
@@ -118,12 +117,6 @@
                 <version>${junit-jupiter.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-classic</artifactId>
-                <version>${logback.version}</version>
             </dependency>
 
             <dependency>
